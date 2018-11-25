@@ -35,7 +35,7 @@ public class AppScript : MonoBehaviour
 
             
             
-            if(packet.Address == "/c1"){
+            // if(packet.Address == "/c1"){
                 // json approach
                 var str = packet.Data[0] as string;
                 var timestamp = (long)packet.Data[1];
@@ -82,7 +82,7 @@ public class AppScript : MonoBehaviour
                 // Loom.QueueOnMainThread(() => {
                     
                 // });
-            }           
+            // }           
             
         };
 
